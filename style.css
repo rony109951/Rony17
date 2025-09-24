@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, Arial;
+}
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 80px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+input[type="file"] {
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  background: #ffcc00;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #ff9900;
+}
+
+#result img {
+  margin-top: 20px;
+  max-width: 90%;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  }
+  
