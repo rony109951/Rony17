@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تعديل الصور 🍌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- خلفية فيديو -->
+  <video autoplay muted loop id="bg-video">
+    <source src="rtt.mp4" type="video/mp4">
+  </video>
+
+  <div class="container">
+    <h1>🖼️ تعديل الصور باستخدام Nano Banana 🍌</h1>
+    
+    <input type="file" id="imageInput" accept="image/*">
+    <textarea id="prompt" placeholder="اكتب الوصف هنا..."></textarea>
+    <button onclick="editImage()">✨ تعديل الصورة</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
